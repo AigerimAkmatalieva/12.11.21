@@ -1,0 +1,73 @@
+div {
+  padding: 15px;
+  background-color: tomato;
+  color: white;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  height: 100%;
+  margin: 30px;
+
+  transition: transform 1s ease-in-out;
+}
+div:nth-child(1):hover {
+  transform: skewX(-30deg);
+}
+div:nth-child(2):hover {
+  transform: skewy(-50deg);
+}
+div:nth-child(3):hover {
+  transform: skew(-10deg);
+}
+div:nth-child(4):hover {
+  transform: translateX(20px);
+}
+div:nth-child(5):hover {
+  transform: translateY(12px);
+}
+div:nth-child(6):hover {
+  transform: translateZ(5px);
+}
+div:nth-child(7):hover {
+  transform: translate(15px);
+}
+div:nth-child(8):hover {
+  transform: rotate(-35deg);
+}
+div:nth-child(9):hover {
+  transform: rotateZ(-50deg);
+}
+div:nth-child(10):hover {
+  transform: rotateX(-20deg);
+}
+div:nth-child(11):hover {
+  transform: rotateY(-60deg);
+}
+div:nth-child(12):hover {
+  transform: scale(1);
+}
+div:nth-child(13):hover {
+  transform: scalex(1.8);
+}
+div:nth-child(14):hover {
+  transform: scaley(1.5);
+}
+
+
+
+
+
+
+
+
+
